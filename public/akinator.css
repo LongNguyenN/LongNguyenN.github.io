@@ -1,0 +1,104 @@
+/*
+ *  Name: Danhiel Vu & Long Nguyen
+ *  Date: 12/22/2019
+ *
+ *  This is the CSS Page for Akinator.
+ */
+@import url('https://fonts.googleapis.com/css?family=Ma+Shan+Zheng&display=swap');
+
+body {
+  font-family: 'Ma Shan Zheng', cursive;
+  background-color: papayawhip;
+  margin-top: 15%;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+section {
+  border: 10px black solid;
+  border-radius: 25px;
+  padding: 5px;
+}
+
+#contacts, h1 {
+  text-align: center;
+}
+
+ul {
+  width: 50%;
+  margin: auto;
+}
+
+li {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+#back-view {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+h1 {
+  font-size: 4em;
+  margin: 5px;
+}
+
+h2 {
+  color: peru;
+  font-size: 3em;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 0;
+  margin-right: 25px;
+}
+
+#main-view {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  background-color: papayawhip;
+  border: 0;
+  font-size: 3em;
+  font-family: 'Ma Shan Zheng', cursive;
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+button:hover {
+  cursor: pointer;
+  color: peru;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+a:visited {
+  color: peru;
+}
+
+hr {
+  border: 1px black solid;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 60%;
+}
+
+.temp {
+  visibility: hidden;
+}
+
+.hidden {
+  display: none !important;
+}

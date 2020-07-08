@@ -1,1 +1,1 @@
-# LongNguyenN.github.io
+# AkinatorAI
